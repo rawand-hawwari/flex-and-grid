@@ -1,0 +1,91 @@
+/*flex properity*/
+.flex-box{
+    display: flex;
+    border: 5px solid #baba02;
+    width: 450px;
+    height: 450px;
+}
+
+.flex-box div{
+    width: 50px;
+    font-size: xx-large;
+    color: white;
+    text-align: center;
+}
+
+/*flex properity*/
+.grid-box{
+    width: 500px;
+    display: grid;
+    gap: 10px 10px;
+}
+
+/* row 1 and row 6 */
+.grid-box .r1, .grid-box .r6{
+    height: 20px;
+    background-color: gray;
+    grid-column: 1/13;
+}
+
+/* row 2 */
+.grid-box .r2.col1{
+    height: 60px;
+    background-color: blue;
+    grid-column: 1/9;
+}
+.grid-box .r2.col2{
+    height: 60px;
+    background-color: lightblue;
+    grid-column: 9/13;
+}
+
+/* row 3 */
+.grid-box .r3.col1{
+    background-color: yellow;
+    height: 60px;
+    grid-column: 1/5;
+}
+.grid-box .r3.col2{
+    background-color: yellow;
+    height: 60px;
+    grid-column: 5/9;
+}
+.grid-box .r3.col3{
+    background-color: yellow;
+    height: 60px;
+    grid-column: 9/13;
+}
+
+/* row 4 */
+.grid-box .r4.col2{
+    background-color: blue;
+    height: 60px;
+    grid-column: 5/13;
+}
+.grid-box .r4.col1{
+    background-color: lightblue;
+    height: 60px;
+    grid-column: 1/5;
+}
+
+/* row 5 */
+.grid-box .r5.col1{
+    background-color: orange;
+    height: 60px;
+    grid-column: 1/4;
+}
+.grid-box .r5.col2{
+    background-color: orange;
+    height: 60px;
+    grid-column: 4/7;
+}
+.grid-box .r5.col3{
+    background-color: orange;
+    height: 60px;
+    grid-column: 7/10;
+}
+.grid-box .r5.col4{
+    background-color: orange;
+    height: 60px;
+    grid-column: 10/13;
+}
