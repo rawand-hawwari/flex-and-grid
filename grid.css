@@ -1,0 +1,44 @@
+div.container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto;
+    gap: 5px;
+    font-size: 24px;
+}
+
+div.item, div.sub, .sub-vertical, .sub-horizantal{
+    padding: 10px;
+    background-color: #e1e1e1;
+}
+
+.sub{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    gap: 5px;
+    padding: 10px;
+}
+
+.sub-vertical{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 5px;
+    padding: 10px;
+}
+
+.sub-vertical div{
+    height: 200px;
+    background-color: #bcb7b7;
+}
+
+.sub-horizantal{
+    display: grid;
+    grid-template-rows: auto auto;
+    gap: 5px;
+    padding: 10px;
+}
+
+.sub div, .sub-horizantal div{
+    height: 100px;
+    background-color: #bcb7b7;
+}
